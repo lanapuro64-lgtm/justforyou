@@ -5,11 +5,11 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Mav",
+    valentineName: "Yo, Nath",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Will you be My Valentine? 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,13 +22,13 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
+            text: "Do you like me? :(",                                    // First interaction
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No..",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you hehe! ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me, hmph?",                          // For the love meter
+            text: "How much do you love me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
@@ -50,7 +50,7 @@ const CONFIG = {
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! I really am luckiest person in the world! hehe 💓",
-        message: "Now come get your gift: a big warm hug and a huge kiss!",
+        message: "Now come get your gift: a big warm hug and a huge kiss! But don't get me wrong, I have other things prepared for us to do today heh",
         emojis: "🎁🤗💝💋💕"  // These will bounce around
     },
 
